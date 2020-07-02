@@ -1,0 +1,59 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* id boxes adalah class dari isi konten bagian bawah */
+  #boxes {
+    width: 50%;
+    margin-bottom: 50px;
+  }  
+  /* id showcase adalah class dari isi konten bagian atas pada judul */
+  #showcase h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+  /* id showcase adalah class dari isi konten bagian atas pada subjudul */
+  #showcase p {
+    text-align: center;
+  }
+  /* class newsletter h1 adalah class dari search bagian "Don't Subscribes (Jika dilihat dari template saya)" */
+  .newsletter h1 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* id boxes adalah class dari isi konten bagian bawah */
+  #boxes {
+    width: 100%;
+  }
+  /* footer pada bagian ini merupakan responsive pada bagian bawah */
+  footer {
+    text-align: center;
+  }
+  /* id showcase adalah class dari isi konten bagian atas keseluruhan supaya pada layar hp terbaca menyamping tidak berada ditengah*/
+  #showcase {
+    text-align: left;
+  }
+  /* class btn untuk ukuran layar background */
+  .btn{
+    width:100%;
+  }
+  /* class header-right adalah class pada bagian navbar : home,about,dll */
+  .header-right{
+    display:none;
+  }
+  /* class menu icon adalah class yang digunakan untuk membuat suatu icon pada saat diterapkan di layar hp */
+  .menu-icon{
+    display:block;
+  }
+  /* id showcase adalah class dari isi konten bagian atas pada judul */
+  #showcase h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  /* id showcase adalah class dari isi konten bagian atas pada subjudul */
+  #showcase p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
