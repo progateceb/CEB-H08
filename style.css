@@ -188,5 +188,5 @@ footer {
 
 .konten-edukasi img {
   align : center;
-  size : auto;
+  max-width : 80%;
 }
